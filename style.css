@@ -1,0 +1,110 @@
+body{
+    background:rgb(4, 4, 31);
+}
+.titulos{
+    margin-top: 50px;
+}
+h1{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color: #872fd8;
+    font-family: ui-monospace;
+  
+}
+h2{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color: #0a7053ed;
+    font-family: ui-monospace;
+}
+.contenedor{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.izquierda{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-top: 21px;
+}
+#formulario{
+    /* height: 50px; */
+    /* display: flex; */
+    flex-direction: column;
+    /* align-items: center; */
+    width: 100%;
+    align-items: baseline;
+    margin-top: 20px;
+}
+.formula{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    color: #d21414e0;
+    margin-top: 10px;
+    margin-left: 14px;
+    font-weight: bold;
+}
+.form-control{
+    margin-top: 6px;
+}
+
+.derecha{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 55px;
+}
+#imagenPortada{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#ImagenF{
+    width: 50%;
+    height: inherit;
+
+}
+button.btn.btn-block.btn-primary {
+    background-color: red;
+    border-color: red;
+}
+button.btn.btn-block.btn-primary.otro {
+    background-color: #000000e8;
+    border-color: black;
+}
+button.btn.btn-block.btn-primary.enviar {
+    background-color: #000000e8;
+    border-color: black;
+}
+
+form {
+
+    width: inherit;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+nav.navbar.otro {
+    flex-wrap: nowrap;
+}
+figure.navbar-logo {
+    margin: 0;
+}
+.logo
+{
+    height: 45px;
+}
+img#imagenPortada2 {
+    height: 320px;
+}
